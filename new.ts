@@ -17,6 +17,3 @@ async function buildCreateAssociatedTokenAccountJTransaction( payer: web3.Public
     return transaction;
 
 }
-
-
-const transactionSignature = await token.mintTo()
